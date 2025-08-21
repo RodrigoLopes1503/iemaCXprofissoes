@@ -1,0 +1,105 @@
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Coleta Seletiva - Metal</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      margin: 0;
+      padding: 0;
+      background: linear-gradient(to bottom, #f5f5f5, #ffffff);
+      color: #333;
+      animation: fadeIn 1.2s ease;
+    }
+    header {
+      background-color: #FFD700;
+      color: white;
+      text-align: center;
+      padding: 30px 20px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    }
+    header img {
+      width: 100px;
+      height: 100px;
+      margin-top: 10px;
+    }
+    header h1 {
+      font-size: 2em;
+      margin-bottom: 5px;
+    }
+    main {
+      padding: 30px 20px;
+      max-width: 960px;
+      margin: auto;
+    }
+    .box {
+      background: white;
+      padding: 25px;
+      border-radius: 15px;
+      box-shadow: 0 6px 16px rgba(0,0,0,0.1);
+      margin-bottom: 25px;
+      transition: all 0.3s ease;
+    }
+    .box:hover {
+      transform: scale(1.02);
+      box-shadow: 0 8px 24px rgba(0,0,0,0.2);
+    }
+    h2 {
+      color: #FFD700;
+      margin-bottom: 10px;
+    }
+    ul {
+      list-style-type: none;
+      padding-left: 10px;
+    }
+    li::before {
+      content: "✅ ";
+      margin-right: 5px;
+    }
+    li {
+      font-size: 1.1em;
+      margin: 8px 0;
+    }
+    footer {
+      text-align: center;
+      background-color: #f4f4f4;
+      padding: 15px;
+      font-size: 14px;
+      color: #555;
+      margin-top: 30px;
+    }
+    @keyframes fadeIn {
+      from { opacity: 0; }
+      to { opacity: 1; }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Coleta Seletiva - Metal</h1>
+    <p>Descubra como descartar corretamente</p>
+    <img src="https://cdn-icons-png.flaticon.com/512/3081/3081110.png" alt="Ícone da categoria"/>
+  </header>
+  <main>
+    <div class="box">
+      <h2>✅ Pode ser reciclado:</h2>
+      <ul><li>Latas de refrigerante</li>
+<li>Latas de alimentos</li>
+<li>Arames</li>
+<li>Ferragens</li></ul>
+    </div>
+    <div class="box">
+      <h2>❌ Não pode ser reciclado:</h2>
+      <ul><li>Latas de tinta</li>
+<li>Pilhas e baterias</li>
+<li>Aerossois</li></ul>
+    </div>
+  </main>
+  <footer>
+    <p>Projeto Coleta Seletiva com QR Code – IEMA</p>
+  </footer>
+</body>
+</html>
