@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Projeto Coleta Seletiva</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #f2f4f8;
+      color: #333;
+      text-align: center;
+    }
+    header {
+      background-color: #4CAF50;
+      color: white;
+      padding: 30px 20px;
+    }
+    .container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 30px;
+      padding: 40px 20px;
+    }
+    .card {
+      background: white;
+      border-radius: 15px;
+      box-shadow: 0 6px 16px rgba(0,0,0,0.1);
+      width: 200px;
+      text-decoration: none;
+      color: #333;
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+    .card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 10px 24px rgba(0,0,0,0.15);
+    }
+    .card img {
+      width: 100%;
+      border-top-left-radius: 15px;
+      border-top-right-radius: 15px;
+    }
+    .card h3 {
+      padding: 15px 10px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Projeto Coleta Seletiva com QR Code</h1>
+    <p>Clique em uma categoria para saber mais</p>
+  </header>
+  <div class="container">
+    <a class="card" href="papel.html">
+      <img src="https://cdn-icons-png.flaticon.com/512/3666/3666635.png" alt="Papel">
+      <h3>Papel</h3>
+    </a>
+    <a class="card" href="plastico.html">
+      <img src="https://cdn-icons-png.flaticon.com/512/3556/3556775.png" alt="Plástico">
+      <h3>Plástico</h3>
+    </a>
+    <a class="card" href="vidro.html">
+      <img src="https://cdn-icons-png.flaticon.com/512/1046/1046857.png" alt="Vidro">
+      <h3>Vidro</h3>
+    </a>
+    <a class="card" href="metal.html">
+      <img src="https://cdn-icons-png.flaticon.com/512/3081/3081110.png" alt="Metal">
+      <h3>Metal</h3>
+    </a>
+    <a class="card" href="organico.html">
+      <img src="https://cdn-icons-png.flaticon.com/512/1755/1755008.png" alt="Orgânico">
+      <h3>Orgânico</h3>
+    </a>
+  </div>
+</body>
+</html>
